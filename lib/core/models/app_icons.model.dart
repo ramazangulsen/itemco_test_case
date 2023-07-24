@@ -1,7 +1,7 @@
 import 'dart:convert';
 
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case_part/config/config.dart';
+import 'package:ny_times_articles_part/config/config.dart';
 
 class AppIcons {
   static final MemoryImage nyTimeLogo =

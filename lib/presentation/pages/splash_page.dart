@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/presentation/view/splash.view.dart';
-import 'package:itemco_test_case_part/config/config.dart';
+import 'package:ny_times_articles/presentation/view/splash.view.dart';
+import 'package:ny_times_articles_part/config/config.dart';
 
 class SplashPage extends StatelessWidget {
   const SplashPage({super.key});

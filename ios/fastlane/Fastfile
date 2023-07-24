@@ -1,0 +1,71 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  desc "Push a new internal build to TestFlight"
+  lane :internal do |options|
+
+    #package name 
+    PACKAGE_NAME = "com.example.ny_times_articles"
+
+    #target main -> run folder
+    TARGET = "lib/main.dart"
+
+    # fastlane action latest_testflight_build_number -> terminal
+    buildNumber = latest_testflight_build_number(app_identifier:PACKAGE_NAME)
+
+    #fastlane action lane_context -> terminal
+    appVersion = lane_context[SharedValues::LATEST_TESTFLIGHT_VERSION]
+    
+    #fastlane action increment_version_number
+    increment_version_number(version_number: appVersion)
+
+    #fastlane add_plugin versioning -> terminal
+    increment_version_number_in_xcodeproj(version_number: appVersion)
+
+    #this method increment for build number 1.0.0 (1)-> 1.0.0 (2) 
+    buildNumberIncrement(buildNumber)
+
+    #this method increment for version name 1.0.0 (1)-> 1.0.1 (1)
+    versionNameIncrement(options[:version])
+
+    #this method provide flutter build ios
+    build_app(
+      workspace: "Runner.xcworkspace",
+      xcargs: "-UseModernBuildSystem=1 -allowProvisioningUpdates -target=#{TARGET}"
+    )
+
+    
+    #this method for uploading ipa -> testflight
+    upload_to_testflight(app_identifier:PACKAGE_NAME,skip_waiting_for_build_processing:true)
+
+  end
+
+  def buildNumberIncrement(buildNumber)
+    if buildNumber != nil
+      increment_build_number({build_number:buildNumber+1})
+  end
+
+  def versionNameIncrement(versionNumber)
+    if versionNumber != nil
+      increment_version_number(bump_type:versionNumber)
+      increment_version_number_in_xcodeproj(version_number:versionNumber)
+      increment_build_number({build_number:1})
+    end
+  end  
+end
+end

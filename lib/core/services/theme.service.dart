@@ -1,10 +1,10 @@
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:itemco_test_case/core/models/theme.model.dart';
-import 'package:itemco_test_case/core/models/widget.colors.model.dart';
-import 'package:itemco_test_case/core/services/value.stream.service.dart';
-import 'package:itemco_test_case_part/theme/light.theme.dart';
+import 'package:ny_times_articles/core/models/theme.model.dart';
+import 'package:ny_times_articles/core/models/widget.colors.model.dart';
+import 'package:ny_times_articles/core/services/value.stream.service.dart';
+import 'package:ny_times_articles_part/theme/light.theme.dart';
 
 extension ThemeExtension on BuildContext {
   ThemeModel get selectedTheme =>

@@ -1,8 +1,8 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/base_providers/article_provider.dart';
-import 'package:itemco_test_case/core/base_providers/settings.provider.dart';
+import 'package:ny_times_articles/core/base_providers/article_provider.dart';
+import 'package:ny_times_articles/core/base_providers/settings.provider.dart';
 import 'package:provider/provider.dart';
 
 abstract class BaseViewModel extends ChangeNotifier {

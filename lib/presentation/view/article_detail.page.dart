@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/helpers/size.extension.dart';
-import 'package:itemco_test_case/core/models/article_model.dart';
-import 'package:itemco_test_case/presentation/view/base/base.view.dart';
-import 'package:itemco_test_case/presentation/widgets/appbar_Back_icon.dart';
+import 'package:ny_times_articles/core/helpers/size.extension.dart';
+import 'package:ny_times_articles/core/models/article_model.dart';
+import 'package:ny_times_articles/presentation/view/base/base.view.dart';
+import 'package:ny_times_articles/presentation/widgets/appbar_Back_icon.dart';
 
 class ArticleDetailView extends StatelessWidget {
   final Article article;

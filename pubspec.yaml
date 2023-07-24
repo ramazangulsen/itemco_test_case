@@ -1,4 +1,4 @@
-name: itemco_test_case
+name: ny_times_articles
 description: A new Flutter project.
 publish_to: "none"
 
@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  itemco_test_case_part:
+  ny_times_articles_part:
     path: part
 
   cupertino_icons: ^1.0.2
@@ -21,7 +21,6 @@ dependencies:
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  mockito: ^5.0.0
 
   flutter_lints: ^2.0.0
 

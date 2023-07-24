@@ -1,4 +1,4 @@
-name: itemco_test_case_part
+name: ny_times_articles_part
 description: Views for white label.
 version: 1.0.0
 publish_to: "none"
@@ -13,5 +13,5 @@ dependencies:
 dev_dependencies:
   flutter_lints: ^1.0.4
 
-  itemco_test_case:
+  ny_times_articles:
     path: ../

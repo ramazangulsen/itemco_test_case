@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/models/http_response.model.dart';
-import 'package:itemco_test_case/core/services/article_services.dart';
-import 'package:itemco_test_case/core/viewmodels/base/base.viewmodel.dart';
-import 'package:itemco_test_case/utils/route_names.dart';
+import 'package:ny_times_articles/core/models/http_response.model.dart';
+import 'package:ny_times_articles/core/services/article_services.dart';
+import 'package:ny_times_articles/core/viewmodels/base/base.viewmodel.dart';
+import 'package:ny_times_articles/utils/route_names.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class SplashViewModel extends BaseViewModel {

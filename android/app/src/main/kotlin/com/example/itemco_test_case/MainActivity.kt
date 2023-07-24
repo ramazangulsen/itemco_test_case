@@ -1,4 +1,4 @@
-package com.example.itemco_test_case
+package com.example.ny_times_articles
 
 import io.flutter.embedding.android.FlutterActivity
 

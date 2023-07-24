@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/viewmodels/base/base.viewmodel.dart';
+import 'package:ny_times_articles/core/viewmodels/base/base.viewmodel.dart';
 import 'package:provider/provider.dart';
 
 enum ProvideMode {

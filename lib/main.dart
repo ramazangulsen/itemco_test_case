@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/services/theme.service.dart';
-import 'package:itemco_test_case/presentation/view/base/itemco_main.dart';
-import 'package:itemco_test_case/utils/route_names.dart';
-import 'package:itemco_test_case/utils/routes.dart';
+import 'package:ny_times_articles/core/services/theme.service.dart';
+import 'package:ny_times_articles/presentation/view/base/itemco_main.dart';
+import 'package:ny_times_articles/utils/route_names.dart';
+import 'package:ny_times_articles/utils/routes.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 void main() {
