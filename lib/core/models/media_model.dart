@@ -1,5 +1,5 @@
-import 'package:itemco_test_case/core/models/base/base.model.dart';
-import 'package:itemco_test_case/core/models/media_metadata.model.dart';
+import 'package:ny_times_articles/core/models/base/base.model.dart';
+import 'package:ny_times_articles/core/models/media_metadata.model.dart';
 
 class Media {
   String type;

@@ -1,10 +1,10 @@
 import 'dart:convert';
 
 import 'package:http/http.dart';
-import 'package:itemco_test_case/core/models/http_response.model.dart';
+import 'package:ny_times_articles/core/models/http_response.model.dart';
 
 import 'package:http/http.dart' as http;
-import 'package:itemco_test_case/core/repositories/articles_repositories.dart';
+import 'package:ny_times_articles/core/repositories/articles_repositories.dart';
 
 class ArticleService extends ArticleRepository {
   @override

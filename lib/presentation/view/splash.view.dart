@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/helpers/size.extension.dart';
-import 'package:itemco_test_case/core/models/app_icons.model.dart';
-import 'package:itemco_test_case/core/viewmodels/base/viewmodel.provider.dart';
-import 'package:itemco_test_case/core/viewmodels/splash.viewmodel.dart';
-import 'package:itemco_test_case/presentation/view/base/base.view.dart';
+import 'package:ny_times_articles/core/helpers/size.extension.dart';
+import 'package:ny_times_articles/core/models/app_icons.model.dart';
+import 'package:ny_times_articles/core/viewmodels/base/viewmodel.provider.dart';
+import 'package:ny_times_articles/core/viewmodels/splash.viewmodel.dart';
+import 'package:ny_times_articles/presentation/view/base/base.view.dart';
 
 class SplashView extends StatelessWidget {
   const SplashView({super.key});

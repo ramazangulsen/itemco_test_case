@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/models/widget.colors.model.dart';
+import 'package:ny_times_articles/core/models/widget.colors.model.dart';
 
 class ThemeModel {
   String corporate;

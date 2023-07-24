@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:itemco_test_case/core/services/theme.service.dart';
+import 'package:ny_times_articles/core/services/theme.service.dart';
 
 class ScreenBaseWidget extends StatelessWidget {
   final GlobalKey<ScaffoldState>? scaffoldKey;

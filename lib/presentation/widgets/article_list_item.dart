@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/models/app_icons.model.dart';
-import 'package:itemco_test_case/core/models/article_model.dart';
+import 'package:ny_times_articles/core/models/app_icons.model.dart';
+import 'package:ny_times_articles/core/models/article_model.dart';
 
 class ArticleListItem extends StatelessWidget {
   final Article article;

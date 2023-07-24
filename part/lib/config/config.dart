@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case_part/config/base64_images.dart';
+import 'package:ny_times_articles_part/config/base64_images.dart';
 
 //const String versionText = "1.0.0 (0)";
 const String versionTextAndroid = "";

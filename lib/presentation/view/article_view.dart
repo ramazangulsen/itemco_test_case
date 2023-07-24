@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/viewmodels/article_viewmodel.dart';
-import 'package:itemco_test_case/core/viewmodels/base/viewmodel.provider.dart';
-import 'package:itemco_test_case/presentation/view/base/base.view.dart';
-import 'package:itemco_test_case/presentation/widgets/article_list_item.dart';
+import 'package:ny_times_articles/core/viewmodels/article_viewmodel.dart';
+import 'package:ny_times_articles/core/viewmodels/base/viewmodel.provider.dart';
+import 'package:ny_times_articles/presentation/view/base/base.view.dart';
+import 'package:ny_times_articles/presentation/widgets/article_list_item.dart';
 
 class ArticleView extends StatelessWidget {
   const ArticleView({super.key});

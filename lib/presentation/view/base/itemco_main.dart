@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/base_providers/settings.provider.dart';
-import 'package:itemco_test_case/core/services/app_lifecycle_service.dart';
-import 'package:itemco_test_case/core/services/value.stream.service.dart';
-import 'package:itemco_test_case/presentation/view/base/provider.creators.dart';
+import 'package:ny_times_articles/core/base_providers/settings.provider.dart';
+import 'package:ny_times_articles/core/services/app_lifecycle_service.dart';
+import 'package:ny_times_articles/core/services/value.stream.service.dart';
+import 'package:ny_times_articles/presentation/view/base/provider.creators.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
 

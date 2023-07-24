@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:itemco_test_case/core/models/article_model.dart';
-import 'package:itemco_test_case/core/viewmodels/base/base.viewmodel.dart';
-import 'package:itemco_test_case/presentation/view/article_detail.page.dart';
+import 'package:ny_times_articles/core/models/article_model.dart';
+import 'package:ny_times_articles/core/viewmodels/base/base.viewmodel.dart';
+import 'package:ny_times_articles/presentation/view/article_detail.page.dart';
 
 class ArticleViewModel extends BaseViewModel {
   ArticleViewModel({required super.context});
