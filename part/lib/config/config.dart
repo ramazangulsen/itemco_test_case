@@ -12,8 +12,6 @@ const pingPort = 443;
 
 const Duration orderSendTimeout = Duration(seconds: 20);
 
-String apiKey = "CqBUpuKfKSYAyIF5RPqFch62AklqVpIt";
-
 const commonImages = base64Images;
 
 ///Views will define here

@@ -1,5 +1,3 @@
-import 'dart:io';
-
 import 'package:flutter_test/flutter_test.dart';
 import 'package:itemco_test_case/core/models/http_response.model.dart';
 import 'package:itemco_test_case/core/services/article_services.dart';
